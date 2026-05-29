@@ -8,7 +8,7 @@ use App\Http\Services\DeliveryService;
 
 class DeliveryController extends Controller
 {
-    private $weight = 10.1;
+    private $weight = 10.2;
     private DeliveryService $deliveryService;
 
     public function __construct()
